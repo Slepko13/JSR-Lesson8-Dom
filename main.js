@@ -35,7 +35,7 @@ const showList = () => {
         button.innerHTML = "Show list";
     }
     else {
-        list = document.createElement('ul');
+        list = document.createElement('ol');
         list.setAttribute("id", "countryList");
         button.after(list);
         button.innerHTML = "Hide list";
