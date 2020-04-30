@@ -112,6 +112,8 @@ const changeColor = () => {
         itemsList.append(items);
         itemsList.append(colors);
 
+        items.prepend('Choose item');
+        colors.prepend(`Choose color`);
         for (let i = 0; i < 5; i++) {
             let item = document.createElement('div');
             item.classList.add('item');
